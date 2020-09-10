@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def get_rank(female_name, male_name):
     try:
         return [choice.split(sep=':')[0] for person, choices in females.items() for choice in choices
